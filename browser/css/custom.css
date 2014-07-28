@@ -115,8 +115,18 @@ scm-contributors **/
 .navbar-default { 
 /*    background-color: #000000;
     border-color: #ED9C06;*/
-    background-color: #ED9C06;
+    background-color: #1D2D44;
+    background-image: -moz-linear-gradient(top, #1D2D44, #3F4D65);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#1D2D44), to(#3F4D65));
+    background-image: -webkit-linear-gradient(top, #1D2D44, #3F4D65);
+    background-image: -o-linear-gradient(top, #1D2D44, #3F4D65);
+    background-image: linear-gradient(to bottom, #1D2D44, #3F4D65);
+    background-repeat: repeat-x;
     border-color: #000000;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF1D2D44', endColorstr='#FF3F4D65', GradientType=0);
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+       -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
 }
 .navbar-fixed-top { 
     border-width: 0 0 2px;
@@ -144,7 +154,12 @@ scm-contributors **/
 
 /** Links **/
 
-a{ 
-   color: #ED9C06;
+a{
+   color: #428BCA;
  }
+
+a:hover,
+a:focus {
+  color: #2A6496;
+}
 
