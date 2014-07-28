@@ -15,7 +15,6 @@
     "its": [
         "contributors",
         "domains",
-        "repos",
-        "states"
+        "repos"
     ]
 }
