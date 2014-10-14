@@ -1,20 +1,26 @@
 {
-    "scm": [
-        "contributors",
-        "domains",
-        "repos"
-    ],
-    "mls": [
-        "contributors",
-        "domains",
-        "repos"
-    ],
-    "studies": [
-        "demographics"
-    ],
-    "its": [
-        "contributors",
-        "domains",
-        "repos"
-    ]
+    "menu":{
+	"scm": [
+            "contributors",
+            "domains",
+            "repos"
+	],
+	"mls": [
+            "contributors",
+            "domains",
+            "repos"
+	],
+
+	"studies": [
+            "demographics"
+	],
+	"its": [
+            "contributors",
+            "domains",
+            "repos"
+
+	],
+	"extra1": []
+    },
+    "releases":[]
 }
